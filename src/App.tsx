@@ -17,7 +17,7 @@ function App() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ titulo, precio, seccion, categoria }), // Añade seccion al cuerpo de la solicitud
+        body: JSON.stringify({ titulo, precio, seccion,categoria }), // Añade seccion al cuerpo de la solicitud
       });
 
       if (response.ok) {
@@ -69,7 +69,7 @@ function App() {
             />
           </div>
 
-          // * (NV1) AGREGAR NUEVO FORM-GROUP
+      
 
           <div className='form-group'>
             <label htmlFor='seccion'>Sección</label>
